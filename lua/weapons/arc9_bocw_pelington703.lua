@@ -158,6 +158,7 @@ SWEP.ManualActionChamber = 1 -- How many shots we go between needing to cycle ag
 SWEP.ManualAction = true -- Pump/bolt action. Play the "cycle" animation after firing, when the trigger is released.
 SWEP.ManualActionNoLastCycle = true -- Do not cycle on the last shot.
 SWEP.ManualActionEjectAnyway = false -- Eject a shell when firing anyway.
+SWEP.EjectDelay = 0.45
 
 -------------------------- FIREMODES
 
@@ -324,7 +325,7 @@ SWEP.BreathRunOutSound = "arc9/breath_runout.wav"
 SWEP.MuzzleParticle = "muzzleflash_1" -- Used for some muzzle effects.
 --SWEP.MuzzleEffect = "MuzzleFlash"
 
-SWEP.ShellModel = "models/shells/shell_9mm.mdl"
+SWEP.ShellModel = "models/shells/shell_556.mdl"
 
 SWEP.ShellSmoke = true
 SWEP.NoShellEject = false

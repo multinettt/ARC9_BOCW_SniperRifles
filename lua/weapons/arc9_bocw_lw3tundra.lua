@@ -333,7 +333,7 @@ SWEP.BreathRunOutSound = "arc9/breath_runout.wav"
 SWEP.MuzzleParticle = "muzzleflash_1" -- Used for some muzzle effects.
 --SWEP.MuzzleEffect = "MuzzleFlash"
 
-SWEP.ShellModel = "models/shells/shell_9mm.mdl"
+SWEP.ShellModel = "models/shells/shell_556.mdl"
 
 SWEP.ShellSmoke = true
 SWEP.NoShellEject = false
