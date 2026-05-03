@@ -29,22 +29,23 @@ ATT.Category = {"bocw_pelington703_optic"}
 
 ATT.Sights = {
     {
-        Pos = Vector(0, 6.1, -1.035),
+        Pos = Vector(0.008, 8.6, -1.035),
         Ang = Angle(0, 0, 0),
-        Magnification = 1.5,
-        ViewModelFOV = 70
+        Magnification = 10,
+        ViewModelFOV = 30,
+        Blur = false
     },
 }
 
 ATT.RTScope = true
 ATT.RTScopeSubmatIndex = 2
-ATT.RTScopeMagnification = 8
+ATT.RTScopeMagnification = 1
 ATT.RTScopeReticle = Material("hud/arc9_bocw/reticle_pelington703.png", "mips smooth")
-ATT.RTScopeReticleScale = 2
-ATT.RTScopeColorable = true
-ATT.RTScopeShadowIntensity = 1
 
-ATT.ScopeScreenRatio = 0.5
+ATT.RTScopeReticleScale = 1.8
+ATT.RTScopeNew_ShadowScale = 0.75
+
+ATT.RTScopeColorable = true
 
 ATT.ModelOffset = Vector(0, 0, -0.11)
 
@@ -810,22 +811,23 @@ ATT.Category = {"bocw_lw3tundra_optic"}
 
 ATT.Sights = {
     {
-        Pos = Vector(0, 8.6, -1.33),
+        Pos = Vector(0.008, 10.8, -1.33),
         Ang = Angle(0, 0, 0),
-        Magnification = 1.5,
-        ViewModelFOV = 70
+        Magnification = 8,
+        ViewModelFOV = 30,
+        Blur = false
     },
 }
 
 ATT.RTScope = true
 ATT.RTScopeSubmatIndex = 3
-ATT.RTScopeMagnification = 8
+ATT.RTScopeMagnification = 1
 ATT.RTScopeReticle = Material("hud/arc9_bocw/reticle_lw3tundra.png", "mips smooth")
-ATT.RTScopeReticleScale = 1.5
-ATT.RTScopeColorable = true
-ATT.RTScopeShadowIntensity = 5
 
-ATT.ScopeScreenRatio = 0.5
+ATT.RTScopeReticleScale = 1.4
+ATT.RTScopeNew_ShadowScale = 0.95
+
+ATT.RTScopeColorable = true
 
 ATT.ModelOffset = Vector(0, 0, 0)
 
@@ -1559,22 +1561,23 @@ ATT.Category = {"bocw_m82_optic"}
 
 ATT.Sights = {
     {
-        Pos = Vector(0, 8.1, -0.01),
+        Pos = Vector(0.01, 10.9, -0.01),
         Ang = Angle(0, 0, 0),
-        Magnification = 1.5,
-        ViewModelFOV = 70
+        Magnification = 8,
+        ViewModelFOV = 30,
+        Blur = false
     },
 }
 
 ATT.RTScope = true
 ATT.RTScopeSubmatIndex = 3
-ATT.RTScopeMagnification = 8
+ATT.RTScopeMagnification = 1
 ATT.RTScopeReticle = Material("hud/arc9_bocw/reticle_m82.png", "mips smooth")
-ATT.RTScopeReticleScale = 1.3
-ATT.RTScopeColorable = true
-ATT.RTScopeShadowIntensity = 5
 
-ATT.ScopeScreenRatio = 0.5
+ATT.RTScopeReticleScale = 1.4
+ATT.RTScopeNew_ShadowScale = 1
+
+ATT.RTScopeColorable = true
 
 ATT.ModelOffset = Vector(0, 0, 1.63)
 
